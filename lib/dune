@@ -1,0 +1,4 @@
+(library
+ (name schedlang)
+ (preprocess (pps ppx_jane))
+ (libraries core))

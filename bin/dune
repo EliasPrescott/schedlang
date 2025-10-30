@@ -1,0 +1,5 @@
+(executable
+ (public_name schedlang)
+ (name main)
+ (preprocess (pps ppx_let))
+ (libraries schedlang core core_unix.command_unix))
